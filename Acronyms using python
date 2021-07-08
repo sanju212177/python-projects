@@ -1,6 +1,0 @@
-phrase = (input("Enter a Phrase: "))
-a = phrase[0].upper()
-for i in range(len(phrase)):
-    if phrase[i]==' ':
-        a = a+phrase[i+1].upper()
-print(a)
